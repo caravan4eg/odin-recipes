@@ -1,0 +1,1 @@
+Pet project on https://www.theodinproject.com/ study
