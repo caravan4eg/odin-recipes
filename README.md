@@ -1,1 +1,2 @@
-Pet project on https://www.theodinproject.com/ study
+HTML, CSS study at Odin Project https://www.theodinproject.com
+[a link] (https://caravan4eg.github.io/odin-recipes)
