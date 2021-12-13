@@ -5,35 +5,52 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300%7CCinzel+Decorative:700" rel="stylesheet" />
+  <link rel="stylesheet" href="./css/main.css" />
   <title>Odin Recipes</title>
 </head>
 
 <body>
+  <div class="container">
   <header>
-    <h1>Odin Recipes</h1>
-    <img src="./img/recipes.jpg" alt="">
-    <p>Prime rib tends to steal the show, so you want to serve it with dishes that will match its indulgent flavor
-      without upstaging it. For Christmas dinner, this means foods like buttery dinner rolls, an in-season salad,
-      traditional sides, and pie.</p>
+    <h1 class="header-title">Odin Recipes</h1>
+
+    <img class="header-image" src="./img/recipes.jpg" alt="Recipes" />
+
+    <p class="header-text">
+      Prime rib tends to steal the show, so you want to serve it with dishes
+      that will match its indulgent flavor without upstaging it. For Christmas
+      dinner, this means foods like buttery dinner rolls, an in-season salad,
+      traditional sides, and pie.
+    </p>
     <h2>Our Christmas reciepes to see...</h2>
   </header>
   <main>
-
     <!-- Receipes list -->
-    <ol>
-      <li><a href="./recipes/spagetti.html">Mama Palomba's Spaghetti Sauce</a></li>
-      <li><a href="./recipes/pudding.html">Yorkshire Pudding</a></li>
-      <li><a href="./recipes/bars.html">Pecan Pie Bars I</a> </li>
-      <li><a href="./recipes/cookies.html">Macadamia Nut Chocolate Chip Cookies</a> </li>
-    </ol>
+    <div class="main-block">
+      <ul>
+        <li>
+          <a href="./recipes/spagetti.html">Mama Palomba's Spaghetti Sauce</a>
+        </li>
+        <li><a href="./recipes/pudding.html">Yorkshire Pudding</a></li>
+        <li><a href="./recipes/bars.html">Pecan Pie Bars I</a></li>
+        <li>
+          <a href="./recipes/cookies.html">Macadamia Nut Chocolate Chip Cookies</a>
+        </li>
+      </ul>
+    </div>
+    </main>
+    <hr />
 
-  </main>
-  <hr>
+    <footer>
+      Pet project of
+      <a href="https://github.com/caravan4eg/odin-recipes">caravan4eg</a> |
+      <a href="https://www.theodinproject.com">The Odin Project</a> | 2021
+    </footer>
 
-  <footer>
-    Pet project of <a href="https://github.com/caravan4eg/odin-recipes">caravan4eg</a> | <a
-      href="https://www.theodinproject.com">The Odin Project</a> | 2021
-  </footer>
+  </div>
 </body>
 
 </html>

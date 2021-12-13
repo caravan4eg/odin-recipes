@@ -1,0 +1,63 @@
+body {
+    background: rgba(176, 252, 195, 0.3);
+    color: #2a2a2a;
+}
+
+link {
+    color: #2a2a2a;
+}
+a:hover {
+    color: green;
+}
+
+.container {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.header-title {
+    text-align: center;
+}
+h1,
+h2,
+h3 {
+    font-family: "Cinzel Decorative", cursive;
+}
+
+.header-image {
+    border-radius: 25px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.479);
+    max-width: 50%;
+}
+
+footer {
+    font-size: 10px;
+    font-style: italic;
+    text-align: center;
+}
+ul {
+    padding-left: 0;
+    margin-left: 0;
+}
+
+li {
+    padding-bottom: 10px;
+    list-style-type: none;
+}
+
+li a {
+    text-decoration: none;
+}
+
+.main-block {
+    text-decoration: none;
+    background-color: #fff;
+    border-radius: 25px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.479);
+    max-width: 35%;
+    padding: 5px 25px 35px 25px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 25px;
+}
